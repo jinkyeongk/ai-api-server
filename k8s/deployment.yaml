@@ -17,6 +17,3 @@ spec:
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_204f0bde8f73
 		  env:
             - name: OPENAI_API_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: OPENAI_API_KEY
