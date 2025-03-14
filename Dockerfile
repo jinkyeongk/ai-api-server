@@ -13,7 +13,8 @@ COPY requirements.txt requirements.txt
 #RUN pip install -r requirements.txt
 
 # FastAPI 및 필요 라이브러리 설치
-RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
 
 # 애플리케이션 코드 복사
 COPY saved_model.pkl .
