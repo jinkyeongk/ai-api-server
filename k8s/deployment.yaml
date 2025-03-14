@@ -15,3 +15,9 @@ spec:
         - name: krampoline
           # 여러분의 image 주소를 입력해주세요.
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_204f0bde8f73
+		  env:
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: OPENAI_API_KEY
+                  key: OPENAI_API_KEY
