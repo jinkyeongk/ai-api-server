@@ -11,7 +11,6 @@ RUN pip install -r requirements.txt
 
 # 애플리케이션 코드 복사
 COPY saved_model.pkl .
-COPY index.py .
 
 # FastAPI 실행 (uvicorn 사용)
 CMD ["uvicorn", "index:app", "--host", "0.0.0.0", "--port", "3000"]
