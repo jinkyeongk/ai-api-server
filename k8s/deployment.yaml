@@ -16,10 +16,4 @@ spec:
           # 여러분의 image 주소를 입력해주세요.
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_204f0bde8f73
 		  securityContext:
-			  privileged: true
-		  resources:
-			limits:
-				nvidia.com/gpu: 1
-			requests:
-				cpu: "500m"
-				memory: "512Mi"
+          	privileged: true
