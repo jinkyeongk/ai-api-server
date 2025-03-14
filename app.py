@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Query
 
-import main
 
 app = FastAPI()
 
