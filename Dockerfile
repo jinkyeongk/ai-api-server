@@ -10,7 +10,7 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 # 애플리케이션 코드 복사
-COPY model.pkl .
+COPY saved_model.pkl .
 COPY index.py .
 
 # FastAPI 실행 (uvicorn 사용)
