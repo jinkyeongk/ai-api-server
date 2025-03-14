@@ -10,7 +10,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 COPY . /app
-COPY .env /app/.env
 
 RUN pip install --no-cache-dir fastapi uvicorn langchain_openai langchain_community chromadb python-dotenv
 
