@@ -10,10 +10,8 @@ COPY . /app
 
 # 필요 패키지 설치
 COPY requirements.txt requirements.txt
-#RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
-# FastAPI 및 필요 라이브러리 설치
-RUN pip install --no-cache-dir -r requirements.txt
 
 
 # 애플리케이션 코드 복사
