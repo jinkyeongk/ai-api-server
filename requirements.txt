@@ -5,7 +5,6 @@ langgraph
 langchain-community
 langchain-openai
 typing-extensions
+fastapi
 sqlalchemy
 uvicorn
---index-url https://pypi.tuna.tsinghua.edu.cn/simple
-fastapi[standard]
