@@ -2,6 +2,7 @@ import pickle
 from typing import Union
 from fastapi import FastAPI
 # model.py 가져옴
+
 import model
 
 
